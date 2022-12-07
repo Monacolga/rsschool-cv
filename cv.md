@@ -2,6 +2,7 @@
 ####Contact information
 Tel.: +393792717667
 E-mail: olga.pedashenko@gmail.com
+Discord: Olga Pedashenko
 Github: Monacolga
 ####About myself
 For a long time I worked as a sales manager but decided to change the job. In spite of the high outcomes and achievements I wanted to try something new. A few years ago I was interested in the sphere of IT. Having studied in more detail the different directions I stopped at the frontend development. I am confident that my determination and dedication will help me become a competent and sought-after specialist. I believe I have all the necessary skills to achieve success in the area of information.
@@ -13,9 +14,12 @@ In addition, at the end of the course I would like to become a teacher and mento
 ####Code examples
 I don't have yet
 ####Experience
-
+Pedagogical experience
+Sales experience
 ####Education
+MSU of Kuleshow (bachelor's degree in pedagogy)
+BSEU (bachelor's degree in economics, specialization logistica)
 ####Languages
 Russian - native
-English - B1 (begining B2)
+English - B1. I traveled a lot and communicated with different people. Now I live abroad and speak English every day.
 Italian - A2
