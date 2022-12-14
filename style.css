@@ -1,4 +1,24 @@
-p {
-  color: red;
-  front-size: 20px;
+body {
+  font-family: "Roboto", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+border: 1px solid red;
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+ul {
+  list-style-type: circle;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
 }
