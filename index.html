@@ -25,10 +25,13 @@
               <a href="#skills" class="nav-link">Skills</a>
             </li>
             <li class="nav-item">
-              <a href="experience" class="nav-link">Experience</a>
+              <a href="#code" class="nav-link">Code</a>
             </li>
             <li class="nav-item">
-              <a href="#code example" class="nav-link">Code Example</a>
+              <a href="#experience" class="nav-link">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
             </li>
             <li class="nav-item">
               <a href="#education" class="nav-link">Education</a>
@@ -42,66 +45,112 @@
     </header>
     <main class="main">
       <div class="container main-container">
+        <section class="section main-section" id="profile-contacts">
+          <p class="main-p">
+          <img src="./assets/img/Img 001.jpeg" alt="Photo" width="280" class="logo"/>
+            <ul class="main-ul">
+              <h1 class="section-maintitle">Olga Pedashenko</h1>
+              <h2>Contacts</h2>
+              <li>Tel.: +393792717667</li>
+              <li>E-mail: olga.pedashenko@gmail.com</li>
+              <li>Discord: Monacolga</li>
+            </ul>
+          </p>
+        </section>
+      </div>
+      <section class="section main-section" id="summary">
         <ul>
-          <h1>Olga Pedashenko</h1>
-          <img src="./assets/img/Img 001.jpeg" alt="Photo" width="280" />
-          <h2>Contacts</h2>
-          <li>Tel.: +393792717667</li>
-          <li>E-mail: olga.pedashenko@gmail.com</li>
-          <li>Discord: Monacolga</li>
+          <h2 class="section-title">Summary</h2>
+          <p>
+            For a long time I worked as a sale's manager but decided to change
+            the job. In spite of the high outcomes and achievements I wanted to
+            try something new. A few years ago I was interested in the sphere of
+            IT. Having studied in more detail the different directions I stopped
+            at the frontend development. I am confident that my determination
+            and dedication will help me become a competent and sought-after
+            specialist. I believe I have all the necessary skills to achieve
+            success in the area of information.
+          </p>
+          <p>
+            I enjoy teamwork. I have outgoing personality and good interpersonal
+            skills. I'm goal-oriented and eager to learn.
+          </p>
+          <p>
+            In addition, at the end of the course I would like to become a
+            teacher and mentor of the RS-school as I have pedagogical education
+            and experience and I can easily present information. On top of that
+            I'm really into it.
+          </p>
         </ul>
-        <ul>
-          <h2>Summary</h2>
-          For a long time I worked as a sale's manager but decided to change the
-          job. In spite of the high outcomes and achievements I wanted to try
-          something new. A few years ago I was interested in the sphere of IT.
-          Having studied in more detail the different directions I stopped at
-          the frontend development. I am confident that my determination and
-          dedication will help me become a competent and sought-after
-          specialist. I believe I have all the necessary skills to achieve
-          success in the area of information. I enjoy teamwork. I have outgoing
-          personality and good inperpersonal skills. I'm goal-oriented and eager
-          to learn. In addition, at the end of the course I would like to become
-          a teacher and mentor of the RS-school as I can easily present
-          information and have pedagogical experience and education. On top of
-          that I'm really into it.
-        </ul>
-        <ul>
-          <h2>Skills</h2>
-          <li>Git, Github</li>
-          <li>HTML5 (base)</li>
-          <li></li>
-        </ul>
-        <ul>
-          <h2>Experience</h2>
-          <li>Pedagogical experience</li>
-          <li>Sales experience</li>
-        </ul>
-        <ul>
-          <h2>Code</h2>
-        </ul>
-        <ul>
-          <h2>Education</h2>
-          <li>Mogilev, MSU of Kuleshow (bachelor's degree in pedagogy)</li>
-          <li>
-            Minsk, BSEU (bachelor's degree in economics, specialization
-            logistics)
-          </li>
-          <li>Youtube, video courses</li>
-        </ul>
-        <ul>
-          <h2>Languages</h2>
-          <li>
-            English - B1. I traveled a lot and communicated with different
-            people. Now I live abroad and speak English every day.
-          </li>
-          <li>Italian - A2</li>
-          <li>Russian - native</li>
-        </ul>
+      </section>
+      <div class="container secondary-container">
+        <section class="section" id="skills">
+          <ul>
+            <h2 class="section-title">Skills</h2>
+            <li>Git, Github</li>
+            <li>HTML5 (base)</li>
+            <li>CSS (base)</li>
+          </ul>
+        </section>
+        <section class="section" id="code">
+          <ul>
+          <h2 class="section-title">Code</h2>
+          <pre class="pre">
+            <code>
+            var humanYearsCatYearsDogYears = function(y) {
+              if (y == 1) return [1, 15, 15]
+              if (y == 2) return [2, 24, 24]
+              return [y, (y-2) * 4 + 24, (y-2) * 5 + 24]
+            }
+            </code>
+          </pre>
+          </ul>
+        </section>
+        <section class="section" id="experience">
+          <ul>
+            <h2 class="section-title">Experience</h2>
+            <li>Pedagogical experience</li>
+            <li>Sales experience</li>
+          </ul>
+        </section>
+          <section class="section" id="projects">
+            <ul>
+              <h2 class="section-title">Projects</h2>
+              <li><a href=""></a></li>
+            </ul>
+          </section>
+          <section class="section" id="languages">
+            <ul>
+              <h2 class="section-title">Languages</h2>
+              <li>
+                English - B1 (B2 in process). I traveled a lot and communicated with different
+                people. Now I live abroad and speak English every day.
+              </li>
+              <li>Italian - A2</li>
+              <li>Russian - native</li>
+            </ul>
+          </section>
+          <section class="section" id="education">
+            <ul>
+              <h2 class="section-title">Education</h2>
+              <li>Mogilev, MSU of Kuleshov (bachelor's degree in pedagogy)</li>
+              <li>
+                Minsk, BSEU (bachelor's degree in economics, specialization
+                logistics)
+              </li>
+              <li>RS school. Stage 0</li>
+              <li>Youtube, video courses</li>
+            </ul>
+          </section>
       </div>
     </main>
     <footer class="footer">
-      <div class="container footer-container"></div>
+      <div class="container footer-container">
+        2022
+        <a href="https://github.com/Monacolga">@Monacolga</a>
+        <img src="./assets/img/Logo RS.png" alt="Logo RSS" width="150">
+        <a href="https://rs.school/">Rolling Scopes School</a>
+      </div>
     </footer>
   </body>
 </html>
