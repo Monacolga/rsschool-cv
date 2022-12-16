@@ -4,8 +4,7 @@
 
 - Tel.: +393792717667
 - E-mail: olga.pedashenko@gmail.com
-- Discord: Olga Pedashenko
-- Github: Monacolga
+- Discord: Monacolga
 
 #### About myself
 
