@@ -2,7 +2,7 @@
 
 #### Contact information
 
-- Tel.: +393792717667
+- Tel: +393792717667
 - E-mail: olga.pedashenko@gmail.com
 - Discord: Monacolga
 
@@ -16,12 +16,16 @@ In addition, at the end of the course I would like to become a teacher and mento
 
 #### Skills
 
-- Git & Github
-- HTML5 (base)
+- Git & Github;
+- HTML5 (base);
+- CSS (base);
+- JavaScript (base);
 
 #### Code examples
 
-I don't have yet
+function multiply(a, b){
+a \* b
+}
 
 #### Experience
 
@@ -30,11 +34,12 @@ I don't have yet
 
 #### Education
 
-- MSU of Kuleshow (bachelor's degree in pedagogy)
-- BSEU (bachelor's degree in economics, specialization logistica)
+- MSU of Kuleshow (bachelor's degree in pedagogy);
+- BSEU (bachelor's degree in economics, specialization logistica);
+- RSSchool (Stage 0)
 
 #### Languages
 
 - Russian - native
 - English - B1. I traveled a lot and communicated with different people. Now I live abroad and speak English every day.
-- Italian - A2
+- Italian - B1
