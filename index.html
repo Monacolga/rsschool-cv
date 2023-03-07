@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+      href="https://fonts.googleapis.com/css?family=Roboto:regular,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
     <title>My CV</title>
   </head>
   <body>
     <header class="header">
+      <!-- <div class="header-wrapper"></div> -->
       <div class="container header-container">
         <nav class="nav">
           <ul class="nav-list">
@@ -43,25 +43,31 @@
       </div>
     </header>
     <main class="main">
-      <div class="container">
+      <div class="container main-container">
         <section class="section main-section" id="profile-contacts">
-          <img
-            src="./assets/img/Img001.jpeg"
-            alt="Photo"
-            width="280"
-            class="logo">
-          <h1 class="section-maintitle">Olga Pedashenko</h1>
-          <h2 class="title">Contacts</h2>
-          <ul class="main-ul">
-            <li>Tel.: +393792717667</li>
-            <li>E-mail: olga.pedashenko@gmail.com</li>
-            <li>Discord: Monacolga</li>
-          </ul>
+          <div class="photo">
+            <img src="./assets/img/img-new.jpg" alt="Photo" />
+          </div>
+          <div class="main-info">
+            <h1 class="main-header">Olga Pedashenko</h1>
+            <h2 class="contact-title">Contacts</h2>
+            <ul class="contact-list">
+              <li>
+                <a class="phone" href="tel: +39379271767">Tel: +39379271767</a>
+              </li>
+              <li>
+                <a class="email" href="mailto: olga.pedashenko@gmail.com">
+                  E-mail: olga.pedashenko@gmail.com</a
+                >
+              </li>
+              <li>Discord: Monacolga</li>
+            </ul>
+          </div>
         </section>
       </div>
       <div class="container">
-        <section class="section main-section" id="summary">
-          <h2 class="section-title">Summary</h2>
+        <section class="section summary-section" id="summary">
+          <h2 class="summary-title">Summary</h2>
           <p>
             For a long time I worked as a sales manager but decided to change
             the job. In spite of the high outcomes and achievements I wanted to
@@ -84,56 +90,76 @@
           </p>
         </section>
       </div>
-      <div class="container special-container">
-        <section class="section" id="skills">
-          <h2 class="section-title">Skills</h2>
+      <div class="container info-container">
+        <section class="section skills-section" id="skills">
+          <h2 class="skills-title">Skills</h2>
           <ul>
             <li>Git, Github</li>
             <li>HTML5 (base)</li>
             <li>CSS (base)</li>
           </ul>
         </section>
-        <section class="section" id="code">
-          <h2 class="section-title">Code</h2>
+        <section class="section code-section" id="code">
+          <h2 class="code-title">Code</h2>
           <pre class="pre">
             <code>
-            var humanYearsCatYearsDogYears = function(y) {
-              if (y == 1) return [1, 15, 15]
-              if (y == 2) return [2, 24, 24]
-              return [y, (y-2) * 4 + 24, (y-2) * 5 + 24]
-            }
+              function perimeterSequence(a, n) {
+                return 4 * a * n;
+              }
             </code>
           </pre>
         </section>
-        <section class="section" id="experience">
-          <h2 class="section-title">Experience</h2>
+        <section class="section experience-section" id="experience">
+          <h2 class="experience-title">Experience</h2>
           <ul>
             <li>Pedagogical experience</li>
             <li>Sales experience</li>
+            <li>Coding experience (Stage 0)</li>
           </ul>
         </section>
-        <section class="section" id="projects">
-          <h2 class="section-title">Projects</h2>
+        <section class="section projects-section" id="projects">
+          <h2 class="projects-title">Projects</h2>
           <ul>
             <li>
-              <a href="https://monacolga.github.io/rsschool-cv/">My CV</a>
+              <a
+                class="projects-link"
+                href="https://monacolga.github.io/rsschool-cv/"
+                target="_blank"
+                >My CV</a
+              >
+            </li>
+            <li>
+              <a
+                class="projects-link"
+                href="https://rolling-scopes-school.github.io/monacolga-JSFEPRESCHOOL2022Q4/plants/"
+                target="_blank"
+                >Plants</a
+              >
+            </li>
+            <li>
+              <a
+                class="projects-link"
+                href="https://monacolga.github.io/momentum/momentum/"
+                target="_blank"
+                >Momentum</a
+              >
             </li>
           </ul>
         </section>
-        <section class="section" id="languages">
-          <h2 class="section-title">Languages</h2>
+        <section class="section languages-section" id="languages">
+          <h2 class="languages-title">Languages</h2>
           <ul>
             <li>
               English - B1 (B2 in process). I traveled a lot and communicated
               with different people. Now I live abroad and speak English every
               day.
             </li>
-            <li>Italian - A2</li>
+            <li>Italian - B1</li>
             <li>Russian - native</li>
           </ul>
         </section>
-        <section class="section" id="education">
-          <h2 class="section-title">Education</h2>
+        <section class="section education-section" id="education">
+          <h2 class="education-title">Education</h2>
           <ul>
             <li>Mogilev, MSU of Kuleshov (bachelor's degree in pedagogy)</li>
             <li>
@@ -148,10 +174,13 @@
     </main>
     <footer class="footer">
       <div class="container footer-container">
-        © 2022
-        <a href="https://github.com/Monacolga">@Monacolga - GitHub</a>
+        <span class="year">© 2023</span>
+        <a class="github-link" href="https://github.com/Monacolga"
+          >@Monacolga - GitHub</a
+        >
         <a href="https://rs.school/"
-          ><img src="./assets/img/LogoRS.png" alt="RSS" width="150"></a>
+          ><img class="rss-logo" src="./assets/img/logo_rs.svg" alt="RSS"
+        /></a>
       </div>
     </footer>
   </body>
