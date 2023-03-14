@@ -109,9 +109,10 @@ p {
 }
 
 .photo {
-  width: 280px;
-  margin-left: 150px;
-  padding: 80px 0;
+  width: 50%;
+  max-width: 280px;
+  margin: auto;
+  /* padding: 80px 0; */
 }
 
 .photo img {
@@ -121,18 +122,19 @@ p {
 }
 
 .main-info {
+  width: 50%;
   padding: 80px 0 70px 0;
 }
 
 .main-header {
-  padding-right: 200px;
+  /* padding-right: 200px; */
   margin-bottom: 35px;
   font-size: 55px;
   color: #033255;
 }
 
 .contact-title {
-  width: 620px;
+  width: 100%;
   margin-bottom: 30px;
   padding-left: 25px;
   border-radius: 35px 0 0 35px;
@@ -154,7 +156,7 @@ p {
 }
 
 .summary-title {
-  width: 600px;
+  width: 46%;
   margin-bottom: 30px;
   padding-right: 30px;
   border-radius: 0 35px 35px 0;
@@ -174,7 +176,7 @@ p {
 }
 
 .skills-title {
-  width: 400px;
+  width: 62%;
   margin-bottom: 30px;
   padding-right: 30px;
   border-radius: 0 35px 35px 0;
@@ -188,12 +190,16 @@ p {
 }
 
 .code-title {
-  width: 650px;
+  width: 100%;
   padding-left: 30px;
   border-radius: 35px 0 0 35px;
   color: #e5e6e6;
   background: linear-gradient(to left, #e5e6e6, #195e92 80%);
   text-align: left;
+}
+
+code {
+  width: 100%;
 }
 
 .experience-section {
@@ -202,7 +208,7 @@ p {
 }
 
 .experience-title {
-  width: 450px;
+  width: 69%;
   margin-bottom: 30px;
   padding-right: 30px;
   border-radius: 0 35px 35px 0;
@@ -218,7 +224,7 @@ p {
 }
 
 .projects-title {
-  width: 600px;
+  width: 92%;
   margin-bottom: 30px;
   padding-left: 30px;
   border-radius: 35px 0 0 35px;
@@ -242,7 +248,7 @@ p {
 }
 
 .languages-title {
-  width: 500px;
+  width: 77%;
   margin-bottom: 30px;
   padding-right: 30px;
   border-radius: 0 35px 35px 0;
@@ -258,7 +264,7 @@ p {
 }
 
 .education-title {
-  width: 550px;
+  width: 85%;
   margin-bottom: 30px;
   padding-left: 30px;
   border-radius: 35px 0 0 35px;
@@ -278,7 +284,12 @@ p {
   align-items: center;
 }
 
+.year {
+  width: 33.3%;
+}
+
 .github-link {
+  width: 33.3%;
   font-size: 20px;
   color: #e5e6e6;
   transition: 0.3s;
@@ -291,7 +302,7 @@ p {
 }
 
 .rss-logo {
-  width: 150px;
+  max-width: 150px;
   padding-top: 10px;
 }
 
