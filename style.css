@@ -292,7 +292,7 @@ p {
 }
 
 .github-link {
-  width: 33.3%;
+  width: 40%;
   font-size: 20px;
   color: #e5e6e6;
   transition: 0.3s;
@@ -346,6 +346,10 @@ p {
 @media (max-width: 850px) {
   .main-header {
     font-size: 40px;
+  }
+
+  .nav-item {
+    padding: 0 15px;
   }
 
   .github-link {
@@ -402,6 +406,14 @@ p {
     right: 0;
   }
 
+  .main-info {
+    padding: 70px 0 40px 0;
+  }
+
+  .photo {
+    max-width: 220px;
+  }
+
   .contact-title,
   .code-title,
   .projects-title,
@@ -414,8 +426,22 @@ p {
   .skills-title,
   .experience-title,
   .languages-title {
+    width: 80%;
     padding-right: 15px;
     margin-bottom: 15px;
+  }
+
+  .summary-title {
+    width: 60%;
+  }
+
+  .projects-section,
+  .education-section {
+    padding-left: 0;
+  }
+
+  .github-link {
+    width: 50%;
   }
 }
 
@@ -429,13 +455,13 @@ p {
   }
 
   .main-info {
-    padding: 50px 0 25px 0;
+    padding: 40px 0 25px 0;
   }
 
   .photo {
     width: 50%;
-    max-width: 220px;
-    margin: auto;
+    max-width: 200px;
+    margin: 35px auto 30px;
   }
 
   .main-header {
@@ -444,6 +470,10 @@ p {
 
   .section {
     margin-bottom: 25px;
+  }
+
+  .main-section {
+    margin-bottom: 0;
   }
 
   p {
@@ -455,5 +485,88 @@ p {
   }
   .rss-logo {
     max-width: 80px;
+  }
+}
+
+@media (max-width: 570px) {
+  .header {
+    background: linear-gradient(
+      to right,
+      #e5e6e6,
+      #195e92 70%,
+      #195e92 100%,
+      #e5e6e6
+    );
+  }
+
+  .container {
+    padding: 0 20px;
+  }
+
+  .main-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .photo {
+    max-width: 230px;
+    width: 55%;
+    margin: 15px 25px 5px;
+  }
+
+  .main-info {
+    width: 100%;
+    padding: 0 0 15px 0;
+  }
+
+  .main-header {
+    margin-bottom: 20px;
+  }
+
+  .skills-section,
+  .code-section,
+  .experience-section,
+  .projects-section,
+  .languages-section,
+  .education-section {
+    width: 100%;
+  }
+
+  .skills-title,
+  .code-title,
+  .experience-title,
+  .projects-title,
+  .languages-title,
+  .education-title {
+    width: 50%;
+    padding-right: 20px;
+    border-radius: 0 35px 35px 0;
+    color: #e5e6e6;
+    background: linear-gradient(to right, #e5e6e6, #195e92 80%);
+    text-align: right;
+  }
+}
+
+@media (max-width: 420px) {
+  .skills-title,
+  .code-title,
+  .experience-title,
+  .projects-title,
+  .languages-title,
+  .education-title {
+    width: 60%;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  .year,
+  .github-link {
+    font-size: 14px;
+  }
+
+  .github-link {
+    width: 75%;
+    text-align: center;
   }
 }
