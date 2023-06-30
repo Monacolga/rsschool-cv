@@ -68,9 +68,14 @@ p {
 }
 
 .container {
-  max-width: 1300px;
+  max-width: 1380px;
+  padding: 0 40px;
   height: 100%;
   margin: auto;
+}
+
+.nav {
+  width: 100%;
 }
 
 .nav-list {
@@ -112,7 +117,6 @@ p {
   width: 50%;
   max-width: 280px;
   margin: auto;
-  /* padding: 80px 0; */
 }
 
 .photo img {
@@ -127,7 +131,6 @@ p {
 }
 
 .main-header {
-  /* padding-right: 200px; */
   margin-bottom: 35px;
   font-size: 55px;
   color: #033255;
@@ -309,4 +312,45 @@ p {
 .rss-logo:hover {
   transition: 0.3s;
   transform: scale(1.03);
+}
+
+@media (max-width: 1050px) {
+  body {
+    font-size: 17px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  .nav-list {
+    justify-content: center;
+  }
+
+  .nav-item {
+    padding: 0 20px;
+    font-size: 17px;
+  }
+
+  .photo {
+    width: 50%;
+    max-width: 250px;
+    margin: auto;
+  }
+
+  .main-header {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 850px) {
+  .main-header {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-header {
+    font-size: 40px;
+  }
 }
