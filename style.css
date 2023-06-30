@@ -347,28 +347,33 @@ p {
   .main-header {
     font-size: 40px;
   }
+
+  .github-link {
+    font-size: 18px;
+  }
+
+  .rss-logo {
+    max-width: 100px;
+  }
 }
 
 @media (max-width: 767px) {
-  .main-header {
-    font-size: 40px;
+  h2 {
+    font-size: 20px;
   }
 
-  .burger-line,
-  .burger::after,
-  .burger::before {
-    content: "";
-    position: absolute;
-    display: inline-block;
-    width: 100%;
-    height: 2px;
-    background-color: #f1cdb3;
+  .main-header {
+    font-size: 35px;
+  }
+
+  .nav {
+    display: none;
   }
 
   .burger {
     position: relative;
-    display: none;
-    margin: 19px 10px 0 0;
+    display: inline-block;
+    margin: 19px 0 10px 20px;
     width: 30px;
     height: 22px;
   }
@@ -381,8 +386,74 @@ p {
     right: 0;
   }
 
+  .burger-line,
+  .burger::after,
+  .burger::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    background-color: #195e92;
+  }
+
   .burger-line {
     top: calc(50% - 1px);
     right: 0;
+  }
+
+  .contact-title,
+  .code-title,
+  .projects-title,
+  .education-title {
+    padding-left: 15px;
+    margin-bottom: 15px;
+  }
+
+  .summary-title,
+  .skills-title,
+  .experience-title,
+  .languages-title {
+    padding-right: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 680px) {
+  body {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .main-info {
+    padding: 50px 0 25px 0;
+  }
+
+  .photo {
+    width: 50%;
+    max-width: 220px;
+    margin: auto;
+  }
+
+  .main-header {
+    font-size: 27px;
+  }
+
+  .section {
+    margin-bottom: 25px;
+  }
+
+  p {
+    margin-bottom: 10px;
+  }
+
+  .github-link {
+    font-size: 16px;
+  }
+  .rss-logo {
+    max-width: 80px;
   }
 }
