@@ -547,6 +547,10 @@ p {
 }
 
 @media (max-width: 420px) {
+  .burger {
+    margin: 19px 0 10px 5px;
+  }
+
   .skills-title,
   .code-title,
   .experience-title,
