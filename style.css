@@ -68,9 +68,14 @@ p {
 }
 
 .container {
-  max-width: 1300px;
+  max-width: 1380px;
+  padding: 0 40px;
   height: 100%;
   margin: auto;
+}
+
+.nav {
+  width: 100%;
 }
 
 .nav-list {
@@ -112,7 +117,6 @@ p {
   width: 50%;
   max-width: 280px;
   margin: auto;
-  /* padding: 80px 0; */
 }
 
 .photo img {
@@ -127,7 +131,6 @@ p {
 }
 
 .main-header {
-  /* padding-right: 200px; */
   margin-bottom: 35px;
   font-size: 55px;
   color: #033255;
@@ -173,6 +176,7 @@ p {
 
 .skills-section {
   width: 50%;
+  margin-bottom: 30px;
 }
 
 .skills-title {
@@ -289,7 +293,7 @@ p {
 }
 
 .github-link {
-  width: 33.3%;
+  width: 40%;
   font-size: 20px;
   color: #e5e6e6;
   transition: 0.3s;
@@ -309,4 +313,265 @@ p {
 .rss-logo:hover {
   transition: 0.3s;
   transform: scale(1.03);
+}
+
+@media (max-width: 1050px) {
+  body {
+    font-size: 17px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  .nav-list {
+    justify-content: center;
+  }
+
+  .nav-item {
+    padding: 0 20px;
+    font-size: 17px;
+  }
+
+  .photo {
+    width: 50%;
+    max-width: 250px;
+    margin: auto;
+  }
+
+  .main-header {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 850px) {
+  .main-header {
+    font-size: 40px;
+  }
+
+  .nav-item {
+    padding: 0 15px;
+  }
+
+  .github-link {
+    font-size: 18px;
+  }
+
+  .rss-logo {
+    max-width: 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  h2 {
+    font-size: 20px;
+  }
+
+  .main-header {
+    font-size: 35px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .burger {
+    position: relative;
+    display: inline-block;
+    margin: 19px 0 10px 20px;
+    width: 30px;
+    height: 22px;
+  }
+  .burger::before {
+    top: 0;
+    right: 0;
+  }
+  .burger::after {
+    bottom: 0;
+    right: 0;
+  }
+
+  .burger-line,
+  .burger::after,
+  .burger::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    background-color: #195e92;
+  }
+
+  .burger-line {
+    top: calc(50% - 1px);
+    right: 0;
+  }
+
+  .main-info {
+    padding: 70px 0 40px 0;
+  }
+
+  .photo {
+    max-width: 220px;
+  }
+
+  .contact-title,
+  .code-title,
+  .projects-title,
+  .education-title {
+    padding-left: 15px;
+    margin-bottom: 15px;
+  }
+
+  .summary-title,
+  .skills-title,
+  .experience-title,
+  .languages-title {
+    width: 80%;
+    padding-right: 15px;
+    margin-bottom: 15px;
+  }
+
+  .summary-title {
+    width: 60%;
+  }
+
+  .projects-section,
+  .education-section {
+    padding-left: 0;
+  }
+
+  .github-link {
+    width: 50%;
+  }
+}
+
+@media (max-width: 680px) {
+  body {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .main-info {
+    padding: 40px 0 25px 0;
+  }
+
+  .photo {
+    width: 50%;
+    max-width: 200px;
+    margin: 35px auto 30px;
+  }
+
+  .main-header {
+    font-size: 27px;
+  }
+
+  .section {
+    margin-bottom: 25px;
+  }
+
+  .main-section {
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-bottom: 10px;
+  }
+
+  .github-link {
+    font-size: 16px;
+  }
+  .rss-logo {
+    max-width: 80px;
+  }
+}
+
+@media (max-width: 570px) {
+  .header {
+    background: linear-gradient(
+      to right,
+      #e5e6e6,
+      #195e92 70%,
+      #195e92 100%,
+      #e5e6e6
+    );
+  }
+
+  .container {
+    padding: 0 20px;
+  }
+
+  .main-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .photo {
+    max-width: 230px;
+    width: 55%;
+    margin: 15px 25px 5px;
+  }
+
+  .main-info {
+    width: 100%;
+    padding: 0 0 15px 0;
+  }
+
+  .main-header {
+    margin-bottom: 20px;
+  }
+
+  .skills-section,
+  .code-section,
+  .experience-section,
+  .projects-section,
+  .languages-section,
+  .education-section {
+    width: 100%;
+  }
+
+  .skills-title,
+  .code-title,
+  .experience-title,
+  .projects-title,
+  .languages-title,
+  .education-title {
+    width: 50%;
+    padding-right: 20px;
+    border-radius: 0 35px 35px 0;
+    color: #e5e6e6;
+    background: linear-gradient(to right, #e5e6e6, #195e92 80%);
+    text-align: right;
+  }
+}
+
+@media (max-width: 420px) {
+  .burger {
+    margin: 19px 0 10px 5px;
+  }
+
+  .skills-title,
+  .code-title,
+  .experience-title,
+  .projects-title,
+  .languages-title,
+  .education-title {
+    width: 60%;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  .year,
+  .github-link {
+    font-size: 14px;
+  }
+
+  .github-link {
+    width: 75%;
+    text-align: center;
+  }
 }
